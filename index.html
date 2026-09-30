@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sweet Crumbs Bakery - Cakes, pastries, breads and more.">
+  <title>Sweet Crumbs Bakery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar container">
+    <a class="logo" href="#home">Sweet<span>Crumbs</span></a>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <div class="nav-links">
+      <a href="#home">Home</a><a href="#products">Products</a><a href="#gallery">Gallery</a>
+      <a href="#order">Order</a><a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-content container">
+    <p class="eyebrow">Freshly baked every day</p>
+    <h1>Made with love,<br><span>baked with joy.</span></h1>
+    <p>Delicious cakes, flaky pastries, artisan breads and sweet treats made fresh for every celebration.</p>
+    <div class="hero-buttons"><a class="btn primary" href="#products">Explore Menu</a><a class="btn secondary" href="#order">Order Now</a></div>
+  </div>
+</section>
+
+<section id="products" class="section container">
+  <div class="section-heading"><p class="eyebrow">Our menu</p><h2>Fresh from the oven</h2><p>Choose from our favorite bakery treats.</p></div>
+  <div class="category-tabs">
+    <button class="active" data-filter="all">All</button><button data-filter="cakes">Cakes</button>
+    <button data-filter="pastries">Pastries</button><button data-filter="breads">Breads</button><button data-filter="cookies">Cookies</button>
+  </div>
+  <div class="product-grid">
+    <article class="product-card" data-category="cakes"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80" alt="Chocolate cake"><div class="product-info"><h3>Chocolate Truffle Cake</h3><p>Rich chocolate sponge with silky truffle cream.</p><strong>₹650</strong></div></article>
+    <article class="product-card" data-category="cakes"><img src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?auto=format&fit=crop&w=700&q=80" alt="Strawberry cake"><div class="product-info"><h3>Strawberry Cream Cake</h3><p>Soft vanilla sponge, fresh strawberries and cream.</p><strong>₹700</strong></div></article>
+    <article class="product-card" data-category="pastries"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=700&q=80" alt="Croissant"><div class="product-info"><h3>Butter Croissant</h3><p>Golden, flaky layers baked with premium butter.</p><strong>₹90</strong></div></article>
+    <article class="product-card" data-category="pastries"><img src="https://images.unsplash.com/photo-1623334044303-241021148842?auto=format&fit=crop&w=700&q=80" alt="Cinnamon roll"><div class="product-info"><h3>Cinnamon Roll</h3><p>Soft swirl with cinnamon sugar and vanilla glaze.</p><strong>₹120</strong></div></article>
+    <article class="product-card" data-category="breads"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80" alt="Artisan bread"><div class="product-info"><h3>Artisan Sourdough</h3><p>Crusty outside, airy inside, naturally fermented.</p><strong>₹180</strong></div></article>
+    <article class="product-card" data-category="breads"><img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=700&q=80" alt="Fresh bread loaf"><div class="product-info"><h3>Classic Milk Bread</h3><p>Soft, fluffy and perfect for breakfast or sandwiches.</p><strong>₹100</strong></div></article>
+    <article class="product-card" data-category="cookies"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=700&q=80" alt="Chocolate chip cookies"><div class="product-info"><h3>Choco Chip Cookies</h3><p>Crispy edges, chewy center and plenty of chocolate.</p><strong>₹160</strong></div></article>
+    <article class="product-card" data-category="cookies"><img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=700&q=80" alt="Assorted cookies"><div class="product-info"><h3>Assorted Cookies Box</h3><p>A delightful box of our freshly baked favorites.</p><strong>₹280</strong></div></article>
+  </div>
+</section>
+
+<section id="gallery" class="gallery-section">
+  <div class="section container"><div class="section-heading"><p class="eyebrow">Sweet moments</p><h2>Bakery gallery</h2></div>
+  <div class="gallery-grid">
+    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80" alt="Cake display">
+    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80" alt="Fresh bread">
+    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=80" alt="Croissants">
+    <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80" alt="Cookies">
+  </div></div>
+</section>
+
+<section id="order" class="section order-section">
+  <div class="order-box container">
+    <div><p class="eyebrow">Custom orders</p><h2>Tell us what you're craving.</h2><p>Send an inquiry for birthday cakes, party boxes, bulk orders or custom designs. We'll get back to you soon.</p></div>
+    <form id="orderForm" novalidate>
+      <div class="form-row"><label>Full Name<input id="name" name="name" type="text" placeholder="Your name"></label><label>Phone Number<input id="phone" name="phone" type="tel" placeholder="10-digit number"></label></div>
+      <div class="form-row"><label>Email<input id="email" name="email" type="email" placeholder="you@example.com"></label><label>Product Type<select id="type" name="type"><option value="">Select</option><option>Cake</option><option>Pastry</option><option>Bread</option><option>Cookies</option><option>Custom Order</option></select></label></div>
+      <label>Order Details<textarea id="details" name="details" rows="4" placeholder="Quantity, flavor, date, message..."></textarea></label>
+      <button class="btn primary" type="submit">Send Inquiry</button>
+      <p id="formMessage" class="form-message" role="alert"></p>
+    </form>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="container contact-grid">
+    <div><p class="eyebrow">Visit us</p><h2>Let's make your day sweeter.</h2><p>Drop by for a fresh treat or contact us for your next celebration.</p></div>
+    <div class="contact-details"><p><b>📍 Address</b><br>123 Bakery Street, Pune, Maharashtra</p><p><b>📞 Phone</b><br>+91 98765 43210</p><p><b>✉ Email</b><br>hello@sweetcrumbs.example</p><p><b>🕒 Hours</b><br>Mon–Sun: 8:00 AM – 9:00 PM</p></div>
+  </div>
+</section>
+</main>
+<footer><div class="container footer-inner"><p>© 2026 Sweet Crumbs Bakery</p><p>Freshly baked with ❤️</p></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
